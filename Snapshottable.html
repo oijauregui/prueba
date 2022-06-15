@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>AIRBoardImplementationGuide</title>
+
+        <link rel="icon" href="static/styles/common/favicon.ico" />
+
+        <script src="static/styles/common/jquery/jquery.min.js"></script>
+        <script src="static/styles/common/bootstrap/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="static/styles/common/main.min.css" />
+        <link rel="stylesheet" href="static/styles/common/bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="static/styles/common/rendering/rendering.min.css" />
+
+        <script src="static/styles/common/rendering/stu3TreeTable.min.js"></script>
+        <script src="static/styles/common/rendering/baseTreetable.min.js"></script>
+
+        <link rel="stylesheet" href="static/project/solution/4.0/airboard/AIRBoardImplementationGuide/styles/Philipslook&feel/style.css?v=1d845b3bb398480" />
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 fhir-logo">
+                        <a href="">
+                            <img src="data:image;base64, iVBORw0KGgoAAAANSUhEUgAAAIwAAAAaCAYAAABl/7RgAAAFLklEQVR4Ae3bA5Aj6x5A8R7PZHKxtm3btm3btm3btm3btu1ZD9Pv1FZ2KtWV/tLR0+1U/db/5gl7IwU2vLUA23EGd/ESQfiJcJggIwxBeIB9GIMyiGpsdEviZ0l5488k5MEEjFeYgGGIJ5iNgUEq8xNRFMqZv9BHMFMeUmCDW5YzBnTDRCszk1DD2Oim1X1UrLuEyjImYACiQTmTFUuxH5fwEG/xFSGIgAwTgvEO17EBPZAD/pACG4m3z+wvlMN0nMEbhMBkFoJPuI+DmI7SkPBrQbITvuAomuAPSMaGN5Ub2Vow/wlZBcGkxCvBfG8oZ+LhvmBmLCRDg5uWM1FxRTAzT2MwAyGreIakUM7UtIjCXhF4jdUoDC/BsfRCaezGF8h22AFfi2CcForVSAgJ7ghGD0bsA/ogwMo6vNERHyE74Dz+djgYgc2Irgfj3mAEgtEbnpAsVEUQZAc9RAItwdzEKmzEKXyALGBCb0hwPhg9mHAcwipsxzX8gCzwFgUUr1kOa3hpcReXcA2P8BHhkPEeGbQEMxwSvPAncmIZQgUz1xFPD8YlwfxAUUjwQQxUwRnIAvPgCQn5bbxm2YVCiIMoiI6EyIoaGIuDyKslmGHg39yWAure+L2DRiwRzISggh6My4IpDOU7nbS4DlnFbcSFhMY2HlnyQTI0vG7rnVWgXcH8WoD57TNy2Xh66qMH4+pgLGaAHjZCyA0JHSCr+GF559Zw0x6MYoOj4IJgbqoejOuDUcwVwnfBu9YKNh9hgMsoDT9Ihvo33RJMAA4J5ua4PRg9mMyCt8nhqK7pNQwQhI2ohwTwhEuD+ROnBXOTNQYTjHWYiVkKM7FS9V6kB5NHEEIoyqm8SxIJw13MQgkYIcHpYFLgmWCumyAYJ+jBGMzHFQ0Fc5+QHZJZFQc+h/mGXSgHX9gfjMUGtLexkyXcGoz+ojcA6yGruIIYkMy80AEfHbz8Mxp/QnMwlrEUxgMbHyPHcG0wejDGepHnwA9d8UP0kuCPBpHbaxlNeRxHGGQ7hGMsfG0FMx2JkRpFMQrPbSy4IySXBKMH8xN1kRgZUFXD67qXyA61z1SiozF24xNkjYJQVdLwcPQMry2KFtmCKHZcSwrGWkzHDIXpWPEPf9Frwls8xzuEargI3BMeUN9OwIDcGIrzCNFyfs3BuMQ+JNevVjsXjBOCMRaBgu0UPerUx2XIAs9cEcwHTEE8SAZw+/cFowdjwl20QoA4FpvhZLJx7L44Ekw4gnAZk5EXPhYb6v5g9GBC8BqH0RNJ4WFl2b4wQIKWaLyxWXQl3FYw+9EV3dEVbVAdORBd8Ing/1swcxXBWMwCbgomFLMszkEXNEM5pIXRyDIExy8plqMN0sIA0X4kwlXIKs5qflstuP0TgrmFuVYsQAd4uftttYPHPiZuQMYrHMBENEdJZEcm5EZD7IdJ8NQ3UlswejAiUyD9lwbjj30qJz8YQfiALwiHLHAX6fVgnAvGhIb/rcEENLzx+1shspO+oikkPRjngvmArP+twZgNgOyEl2gNn9/BRKiQMdQFwbSCDJOV5X/QEMwLyIpZCIO5J5gZoxLMZeWMDTIuIprlyRGs96kgmHArx8eEb9qDEX5X6jK+wGTHVesnmI8c8ETkQruo6Ia8LggmI7qqrKMtYgqCiYKWKvNdkQPKGSOaqsx0i/wP0vVvKp/r6ytnbOiGKvCCZJYb3VS2tQX+grU7RWeVdXRAfCeD8UQclEIfrMBJ3MdrvMcbPMBJLEJrpLP2ccm/AKutzbNMzbt6AAAAAElFTkSuQmCC" alt="Philips">
+                        </a>
+                    </div>
+                    <div class="col-md-16 title">
+                        <div>
+                            <a href="/">
+                                AIRBoardImplementationGuide
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 hl7-logo">
+                        <a href="">
+                            <img src="data:image;base64, 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" alt="Philips" width="83" height="75">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+
+                    <li>
+                        <a href="Index.html">
+                            Home
+                        </a>
+                    </li>
+
+                        <li>
+                            <a href="Lesionmanagementinformationmodel.html">
+                                Lesion management information model
+                            </a>
+                        </li>
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                FHIR Profiles <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+
+                                    <li>
+                                        <a href="AIRBodyStructure.html">
+                                            AIRBodyStructure
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRObservationRoot.html">
+                                            AIRObservationRoot
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRObservationQuantitative.html">
+                                            AIRObservationQuantitative
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRObservationSolidness.html">
+                                            AIRObservationSolidness
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRObservationMargins.html">
+                                            AIRObservationMargins
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Terminology: value sets <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+
+
+                                    <li>
+                                        <a href="AIRBodyLocation.html">
+                                            AIRBodyLocation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRLesionType.html">
+                                            AIRLesionType
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRMarginValueSet.html">
+                                            AIRMarginValueSet
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRSolidnessValueSet.html">
+                                            AIRSolidnessValueSet
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="AIRQuantitativeObservationValueSet.html">
+                                            AIRQuantitativeObservationValueSet
+                                        </a>
+                                    </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="Capabilitystatement.html">
+                                Capability statement
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Downloadsanddocumentation.html">
+                                Related documentation
+                            </a>
+                        </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        </header>
+
+        <div class="content container" role="main" aria-label="Main content">
+            
+
+    <div class="row">
+
+
+        <div class="col-md-24">
+
+            <div id="preview-content">
+
+                <h3 id="page-title">Snapshot table</h3>
+<p><div id="45e8771ef30d471bb607f212d19a6324" data-level="1" class="stu3-treetable"><div class="treetable-wrapper snapshot"><div class="treetable-left-panel"><table class="treetable"><tr data-id="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class="collapsed constraints"><td class="profile"><span class="baseIcon resource"></span><span class="constraints">BodyStructure</span></td><td class="profile"><span title="This element has or is affected by some invariants">I</span></td><td></td><td class="profile"><a title="BodyStructure
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-BodyStructure.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-bodystructure.json" >BodyStructure</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure</pre></p></div><span><b>Short description </b></span><p><span>Specific and identified anatomical structure</span></p><span><b>Alternate names </b></span><p><span>anatomical location</span></p><span><b>Definition </b></span><div class="markdown"><p>Record details about an anatomical structure.  This resource may be used when a coded concept does not provide the necessary detail needed for the use case.</p>
+</div><span><b>Data Type </b></span><p><a title="BodyStructure
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-BodyStructure.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-bodystructure.json" >BodyStructure</a></p><span><b>Constraints</b></span><div><ul><li class=""><b>dom-2:</b>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/><code>contained.contained.empty()</code></li><li class=""><b>dom-4:</b>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/><code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code></li><li class=""><b>dom-3:</b>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/><code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code></li><li class=""><b>dom-6:</b>A resource should have narrative for robust management<br/><code>text.`div`.exists()</code></li><li class=""><b>dom-5:</b>If a resource is contained in another resource, it SHALL NOT have a security label<br/><code>contained.meta.security.empty()</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>Entity. Role, or Act</li><li class=""><b>rim:</b>ActSIte</li><li class=""><b>openehr:</b>Archetype ID   openEHR-EHR-CLUSTER.anatomical_location.v1      Concept name   Anatomical Location      Concept description   Record details about an anatomical location.      Keywords   location, site, anatomical      Copyright   &#169; openEHR Foundation      Purpose   To record details about anatomical location.      Misuse   Not for specifiying unilateral/bilateral occurrence - this is related to an evaluation which perhaps includes multiple locations.      Author   Author name: Heather Leslie Organization: Ocean Informatics Email: heather.leslie@oceaninformatics.com Date of Origination: 2008-11-10       Translator   Norwegian Bokm&#229;l: Lars Bitsch-Larsen, Haukeland University Hospital of Bergen, Norway, MD, DEAA, MBA, spec in anesthesia, spec in tropical medicine. Arabic (Syria): Mona Saleh       Other contributors   Heather Leslie, Ocean Informatics, Australia (Editor) Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (Editor) Dunmail Hodkinson, Black Pear Software Ltd, UK      References   Use cases: - 5LICS, midclavicular line - L forearm, 2cm anterior to the cubital fossa - Right iliac fossa - 5 cm below L tibial tuberosity - 2 cm medial to R nipple - 4 cm below R costal margin in midclavicular line - R femur - midline nose - medial aspect of R great toe nail.</li></ul></td></tr><tr id="BodyStructure.identifier" data-id="7b962c1b-8f19-46dd-9dbf-d060488bbc63" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon datatype"></span><span>identifier</span></td><td class="profile"><span title="This element is an element that is part of the summary">Σ</span></td><td class="profile"><span>0</span><span>..</span><span>*</span></td><td class="profile"><a title="Identifier
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Identifier.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-identifier.json" >Identifier</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.identifier</pre></p></div><span><b>Short description </b></span><p><span>Bodystructure identifier</span></p><span><b>Definition </b></span><div class="markdown"><p>Identifier for this instance of the anatomical structure.</p>
+</div><span><b>Data Type </b></span><p><a title="Identifier
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Identifier.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-identifier.json" >Identifier</a></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>v2:</b>CX / EI (occasionally, more often EI maps to a resource id or a URL)</li><li class=""><b>rim:</b>II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]</li><li class=""><b>servd:</b>Identifier</li><li class=""><b>w5:</b>FiveWs.identifier</li><li class=""><b>rim:</b>.id</li><li class=""><b>openehr:</b>Specific location  Cluster Optional (0..1) Cardinality: Mandatory, repeating, unordered (1..*)</li></ul></td></tr><tr id="BodyStructure.active" data-id="c79a6dae-7b3b-477e-ae59-968cc61ea7c2" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon primitive"></span><span>active</span></td><td class="profile"><span title="This element is an element that is part of the summary">Σ</span> <span title="This element is a modifying element">?!</span></td><td class="profile"><span>0</span><span>..</span><span>1</span></td><td class="profile"><a title="boolean
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-boolean.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-boolean.json" >boolean</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.active</pre></p></div><span><b>Short description </b></span><p><span>Whether this record is in active use</span></p><span><b>Definition </b></span><div class="markdown"><p>Whether this body site is in active use.</p>
+</div><span><b>Requirements </b></span><div class="markdown"><p>Need to be able to mark a body site entry as not to be used because it was created in error.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>This element is labeled as a modifier because it may be used to mark that the resource was created in error.</p>
+</div><span><b>Data Type </b></span><p><a title="boolean
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-boolean.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-boolean.json" >boolean</a></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>w5:</b>FiveWs.status</li><li class=""><b>rim:</b>statusCode</li></ul></td></tr><tr id="BodyStructure.morphology" data-id="d9353c56-92e5-4325-a308-776004c96fa9" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class="constraints"><td class="profile"><span class="baseIcon datatype"></span><span class="constraints">morphology</span></td><td class="profile"><span class="mustsupport constraints" title="This element is an element that must be supported">S</span> <span title="This element is an element that is part of the summary">Σ</span></td><td class="profile"><span>0</span><span>..</span><span>1</span></td><td class="profile"><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></td><td class="details hidden"><span class="pin-control"></span><span><b>Element Id</b></span><div><p><pre>BodyStructure.morphology</pre></p></div><span><b>Short description </b></span><p><span>Kind of Structure</span></p><span><b>Definition </b></span><div class="markdown"><p>The kind of structure being represented by the body structure at <code>BodyStructure.location</code>.  This can define both normal and abnormal morphologies.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>The minimum cardinality of 0 supports the use case of specifying a location without defining a morphology.</p>
+</div><span><b>Data Type </b></span><p><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></p><span class="constraints"><b>Binding </b></span><p><p><span class="constraints">Codes describing anatomic morphology.</span></p><a title="Examples of types of lesions to populate BodyStructure.morphology element" href="artifacts/AIRLesionTypeValueSet.xml"  class="constraints">AIRLesionTypeValueSet</a><span class="constraints"> (</span><a title="Instances are not expected or even encouraged to draw from the specified valueset. The value set merely provides examples of the types of concepts intended to be included." href="http://hl7.org/fhir/r4/terminologies.html#example"  class="constraints">example</a><span class="constraints">)</span></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>v2:</b>CE/CNE/CWE</li><li class=""><b>rim:</b>CD</li><li class=""><b>orim:</b>fhir:CodeableConcept rdfs:subClassOf dt:CD</li><li class=""><b>w5:</b>FiveWs.what[x]</li><li class=""><b>v2:</b>SPM-4/SPM-5</li></ul></td></tr><tr id="BodyStructure.location" data-id="c964c235-842b-4103-808e-31882cfac2a4" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class="constraints"><td class="profile"><span class="baseIcon datatype"></span><span class="constraints">location</span></td><td class="profile"><span class="mustsupport constraints" title="This element is an element that must be supported">S</span> <span title="This element is an element that is part of the summary">Σ</span></td><td class="profile"><span>0</span><span>..</span><span>1</span></td><td class="profile"><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></td><td class="details hidden"><span class="pin-control"></span><span><b>Element Id</b></span><div><p><pre>BodyStructure.location</pre></p></div><span><b>Short description </b></span><p><span>Body site</span></p><span><b>Definition </b></span><div class="markdown"><p>The anatomical location or region of the specimen, lesion, or body structure.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.</p>
+</div><span><b>Data Type </b></span><p><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></p><span class="constraints"><b>Binding </b></span><p><p><span class="constraints">Codes describing anatomical locations. May include laterality.</span></p><a title="Body sites in the lung to have a lesion" href="artifacts/852.xml"  class="constraints">AIRAnatomicalLocationValueSet</a><span class="constraints"> (</span><a title="Instances are not expected or even encouraged to draw from the specified valueset. The value set merely provides examples of the types of concepts intended to be included." href="http://hl7.org/fhir/r4/terminologies.html#example"  class="constraints">example</a><span class="constraints">)</span></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>v2:</b>CE/CNE/CWE</li><li class=""><b>rim:</b>CD</li><li class=""><b>orim:</b>fhir:CodeableConcept rdfs:subClassOf dt:CD</li><li class=""><b>w5:</b>FiveWs.what[x]</li><li class=""><b>v2:</b>OBX-20/SPM-8/SPM-10</li><li class=""><b>rim:</b>.targetSiteCode</li><li class=""><b>openehr:</b>Name of location</li></ul></td></tr><tr id="BodyStructure.locationQualifier" data-id="f2ceee83-6f8a-482c-9d30-3289c3ab44d9" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon datatype"></span><span>locationQualifier</span></td><td class="profile"></td><td class="profile"><span>0</span><span>..</span><span>*</span></td><td class="profile"><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.locationQualifier</pre></p></div><span><b>Short description </b></span><p><span>Body site modifier</span></p><span><b>Definition </b></span><div class="markdown"><p>Qualifier to refine the anatomical location.  These include qualifiers for laterality, relative location, directionality, number, and plane.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.</p>
+</div><span><b>Data Type </b></span><p><a title="CodeableConcept
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-CodeableConcept.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-codeableconcept.json" >CodeableConcept</a></p><span><b>Binding </b></span><p><p><span>Concepts modifying the anatomic location.</span></p><a title="BodystructureLocationQualifier
+hl7.fhir.r4.core 4.0.1
+ValueSet-bodystructure-relative-location.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/valueset-bodystructure-relative-location.json" >BodystructureLocationQualifier</a><span> (</span><a title="Instances are not expected or even encouraged to draw from the specified valueset. The value set merely provides examples of the types of concepts intended to be included." href="http://hl7.org/fhir/r4/terminologies.html#example" >example</a><span>)</span></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>v2:</b>CE/CNE/CWE</li><li class=""><b>rim:</b>CD</li><li class=""><b>orim:</b>fhir:CodeableConcept rdfs:subClassOf dt:CD</li><li class=""><b>w5:</b>FiveWs.what[x]</li><li class=""><b>v2:</b>No distinct element defined in V2.x. The IHE Radiology Technical Framework directs the use of OBR-15-specimen source to contain laterality for imaging studies./SPM-9</li><li class=""><b>rim:</b>.targetSiteCode</li><li class=""><b>openehr:</b>Combines Side, Numerical identifier, Anatomical plane,and Aspect</li></ul></td></tr><tr id="BodyStructure.description" data-id="fc21dbaf-8abc-4a98-b117-661654e3ad7b" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon primitive"></span><span>description</span></td><td class="profile"><span title="This element is an element that is part of the summary">Σ</span></td><td class="profile"><span>0</span><span>..</span><span>1</span></td><td class="profile"><a title="string
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-string.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-string.json" >string</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.description</pre></p></div><span><b>Short description </b></span><p><span>Text description</span></p><span><b>Definition </b></span><div class="markdown"><p>A summary, characterization or explanation of the body structure.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>This description could include any visual markings used to orientate the viewer e.g. external reference points, special sutures, ink markings.</p>
+</div><span><b>Data Type </b></span><p><a title="string
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-string.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-string.json" >string</a></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>w5:</b>FiveWs.what[x]</li><li class=""><b>v2:</b>NTE</li><li class=""><b>rim:</b>.text</li><li class=""><b>openehr:</b>Description of anatomical location/Visual markings/orientation</li></ul></td></tr><tr id="BodyStructure.image" data-id="633d4f91-1dbb-4ba9-93c4-c2af0001220e" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon datatype"></span><span>image</span></td><td class="profile"><span title="This element has or is affected by some invariants">I</span></td><td class="profile"><span>0</span><span>..</span><span>*</span></td><td class="profile"><a title="Attachment
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Attachment.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-attachment.json" >Attachment</a></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.image</pre></p></div><span><b>Short description </b></span><p><span>Attached images</span></p><span><b>Definition </b></span><div class="markdown"><p>Image or images used to identify a location.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>When providing a summary view (for example with Observation.value[x]) Attachment should be represented with a brief display text such as &quot;Signed Procedure Consent&quot;.</p>
+</div><span><b>Data Type </b></span><p><a title="Attachment
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Attachment.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-attachment.json" >Attachment</a></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li><li class=""><b>att-1:</b>If the Attachment has data, it SHALL have a contentType<br/><code>data.empty() or contentType.exists()</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>v2:</b>ED/RP</li><li class=""><b>rim:</b>ED</li><li class=""><b>w5:</b>FiveWs.what[x]</li><li class=""><b>v2:</b>OBX</li><li class=""><b>rim:</b>outboundRelationship[typeCode=COMP].target</li><li class=""><b>openehr:</b>Image</li></ul></td></tr><tr id="BodyStructure.patient" data-id="58b5d0da-e18b-4710-891b-b1ccb4dca4d3" data-parentId="cc88a4ee-30f6-4fc7-8f45-63aa6a7c3b13" class=""><td class="profile"><span class="baseIcon reference"></span><span>patient</span></td><td class="profile"><span title="This element is an element that is part of the summary">Σ</span> <span title="This element has or is affected by some invariants">I</span></td><td class="profile"><span>1</span><span>..</span><span>1</span></td><td class="profile"><a title="Reference
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Reference.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-reference.json" >Reference</a><span>(</span><span>https://www.fhir.philips.com/4.0/StructureDefinition/common/resource/general/patient-v1/ILSPatient</span><span>)</span></td><td class="details hidden"><span class="pin-control"></span><div class="noconstraints"><span class="constraints">There are no (further) constraints on this element</span></div><span><b>Element Id</b></span><div><p><pre>BodyStructure.patient</pre></p></div><span><b>Short description </b></span><p><span>Who this is about</span></p><span><b>Definition </b></span><div class="markdown"><p>The person to which the body site belongs.</p>
+</div><span><b>Comments </b></span><div class="markdown"><p>References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.</p>
+</div><span><b>Data Type </b></span><p><a title="Reference
+hl7.fhir.r4.core 4.0.1
+StructureDefinition-Reference.json" href="https://simplifier.net/packages/hl7.fhir.r4.core/4.0.1/files/package/structuredefinition-reference.json" >Reference</a><span>(</span><span>https://www.fhir.philips.com/4.0/StructureDefinition/common/resource/general/patient-v1/ILSPatient</span><span>)</span></p><span><b>Constraints</b></span><div><ul><li class=""><b>ele-1:</b>All FHIR elements must have a @value or children<br/><code>hasValue() or (children().count() > id.count())</code></li><li class=""><b>ref-1:</b>SHALL have a contained resource if a local reference is provided<br/><code>reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids'))</code></li></ul></div><span><b>Mappings</b></span><ul><li class=""><b>rim:</b>n/a</li><li class=""><b>rim:</b>The target of a resource reference is a RIM entry point (Act, Role, or Entity)</li><li class=""><b>w5:</b>FiveWs.subject[x]</li><li class=""><b>v2:</b>PID-3</li><li class=""><b>rim:</b>.scoper or .scoper.playsRole</li><li class=""><b>w5:</b>FiveWs.subject</li></ul></td></tr></table></div><div class="treetable-right-panel"></div></div></div><script type="text/javascript">
+(function() {
+var isTreetableVisible = document.querySelector(".treetable") != null;
+if (isTreetableVisible) {
+var resourceTreeTable45e8771ef30d471bb607f212d19a6324 = new Stu3TreeTable(false);
+resourceTreeTable45e8771ef30d471bb607f212d19a6324.init("45e8771ef30d471bb607f212d19a6324");
+}
+})();
+</script></p>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <span>Version: PACKAGE_VERSION</span>
+                        <span>FHIR Version: R4</span>
+                    </div>
+                    <br />
+                    <p>Powered by <b>SIMPLIFIER.NET</b></p>
+                    <div>
+                        HL7<sup>&reg;</sup> and FHIR<sup>&reg;</sup> are the registered trademarks of Health Level Seven International
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
